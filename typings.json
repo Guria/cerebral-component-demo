@@ -1,0 +1,9 @@
+{
+  "ambientDependencies": {
+    "react": "registry:dt/react#0.14.0+20160423065914",
+    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040"
+  },
+  "dependencies": {
+    "object-assign": "registry:npm/object-assign#4.0.1+20160301180549"
+  }
+}

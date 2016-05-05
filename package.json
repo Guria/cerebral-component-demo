@@ -1,0 +1,37 @@
+{
+  "name": "cerebral-component",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "typings i && tsc",
+    "prestart": "npm run build",
+    "start": "kotatsu serve main.js -c webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guria/cerebral-component-demo.git"
+  },
+  "author": "Alexey Gurianov <gurianov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guria/cerebral-component-demo/issues"
+  },
+  "homepage": "https://github.com/Guria/cerebral-component-demo#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "kotatsu": "^0.13.0",
+    "postcss-loader": "^0.9.1",
+    "postcss-nested": "^1.0.0",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.1",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  },
+  "dependencies": {
+    "action-tree": "0.0.1",
+    "object-assign": "^4.1.0",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  }
+}
